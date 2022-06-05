@@ -1,4 +1,4 @@
-#How to run this project
+# How to run this project
 
 1. Download this git repository
 2. Open downloaded folder
@@ -6,3 +6,7 @@
 4. Open solution with Visual Studio / Rider
 5. Choose **Resease|x64 / Debug|x64** configuration
 6. Run
+
+## Algorithm
+
+You can learn more about the algorithm [here](https://github.com/Noxormy/CDPR_Gameplay_Test/blob/master/Flocking%20Simulation.pdf)
