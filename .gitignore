@@ -1,0 +1,7 @@
+﻿x64/
+/.idea/
+/.vs/
+/packages/
+Debug/
+Release/
+/external/

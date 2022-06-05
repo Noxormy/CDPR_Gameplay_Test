@@ -1,0 +1,82 @@
+/*
+    This is a configuration file for the SwitchStartupProject Visual Studio Extension
+    See https://bitbucket.org/thirteen/switchstartupproject/src/tip/Configuration.md
+*/
+{
+    /*  Configuration File Version  */
+    "Version": 3,
+    
+    /*  Create an item in the dropdown list for each project in the solution?  */
+    "ListAllProjects": false,
+
+  "MultiProjectConfigurations": {
+    "Game": {
+      "Projects": {
+        "RED_Gameplay_Test": {
+          "StartProject": true
+        }
+      }
+    },
+    "UnitTests": {
+      "Projects": {
+        "Test_RED_Gameplay_Test": {}
+      }
+    },
+    "Game (Debug x64)": {
+      "Projects": {
+        "RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x64"
+    },
+    "UnitTests (Debug x64)": {
+      "Projects": {
+        "Test_RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x64"
+    },
+    "Game (Debug x86)": {
+      "Projects": {
+        "RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x86"
+    },
+    "UnitTests (Debug x86)": {
+      "Projects": {
+        "Test_RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x86"
+    },
+    "Game (Release x64)": {
+      "Projects": {
+        "RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Release",
+      "SolutionPlatform": "x64"
+    },
+    "UnitTests (Release x64)": {
+      "Projects": {
+        "Test_RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Release",
+      "SolutionPlatform": "x64"
+    },
+    "Game (Release x86)": {
+      "Projects": {
+        "RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Release",
+      "SolutionPlatform": "x86"
+    },
+    "UnitTests (Release x86)": {
+      "Projects": {
+        "Test_RED_Gameplay_Test": {}
+      },
+      "SolutionConfiguration": "Release",
+      "SolutionPlatform": "x86"
+    }
+  }
+}
