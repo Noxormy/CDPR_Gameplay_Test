@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1433
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{F97337C5-9BAF-464A-A170-8ED44C2D8008}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sources", "sources", "{1CE373D2-DBC5-4671-B053-6C6C56067AB0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RED_Gameplay_Test", "sources\RED_Gameplay_Test\RED_Gameplay_Test.vcxproj", "{92CA46E8-95D9-42EB-AB35-22AF25C646B7}"
@@ -34,9 +32,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{CCE7B5
 		data\assets\windowslogo.dds = data\assets\windowslogo.dds
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reactphysics3d", "external\reactphysics3d\reactphysics3d.vcxproj", "{6A0F2372-0945-3C81-A9D1-590A94720223}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reactphysics3d", "packages\reactphysics3d\reactphysics3d.vcxproj", "{6A0F2372-0945-3C81-A9D1-590A94720223}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flocking", "sources\Flocking\Flocking.vcxproj", "{CAA77D7F-D139-4493-88F1-127AFF68BA2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{578F5019-C09F-4C2A-8303-ECF03C8DFE10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,8 +87,8 @@ Global
 		{154B4A26-1D1D-4FA4-BC93-89C2CD7B0EAC} = {1CE373D2-DBC5-4671-B053-6C6C56067AB0}
 		{D9618D55-FD39-45ED-8B8A-26300F147B03} = {20E8E09C-76CC-4BF0-AF5A-372CDFD8C90F}
 		{CCE7B51C-52DB-4203-95C7-9798F50B6BFF} = {20E8E09C-76CC-4BF0-AF5A-372CDFD8C90F}
-		{6A0F2372-0945-3C81-A9D1-590A94720223} = {F97337C5-9BAF-464A-A170-8ED44C2D8008}
 		{CAA77D7F-D139-4493-88F1-127AFF68BA2C} = {1CE373D2-DBC5-4671-B053-6C6C56067AB0}
+		{6A0F2372-0945-3C81-A9D1-590A94720223} = {578F5019-C09F-4C2A-8303-ECF03C8DFE10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE171573-D1A4-4051-93CA-D894C901F9FF}

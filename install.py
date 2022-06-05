@@ -15,7 +15,7 @@ def all_text_from_file(file):
 
 def update_vcxproj():
     project_name = 'reactphysics3d'
-    directory_path = f'{os.path.dirname(os.path.realpath(__file__))}/external/{project_name}/'
+    directory_path = f'{os.path.dirname(os.path.realpath(__file__))}/packages/{project_name}/'
     tab = '      '
 
     property_group = '\<PropertyGroup\>(\n.*)*\<\/PropertyGroup\>\n'
