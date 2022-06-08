@@ -19,7 +19,7 @@ A: It looks like the submodules are not loaded, you need to open the repository 
 Q: I'm getting an error that cmake can't find the **Visual Studio 15 2017** tools.  
 A: This project is developed for the Visual Studio 2017 toolkit, you can either install Visual Studio 2017 or update **install.bat** to use your toolkit, for example: **Visual Studio 17 2022** if you have Visual Studio 2022.
 
-Q: When I run the install.bat, I get an error that the Visual Studio toolkit version is not compatible with the previous version.  
+Q: When I run the install.bat, I get an error "doesn't match the generator used previously"  
 A: You need to open **packages/reactphysics3d** and remove **CMakeFiles** and **CMakeCache.txt**.
 
 Q: I cannot run the application. I get an error that I cannot find the **Windows SDK 10.0.17763.0**.  
