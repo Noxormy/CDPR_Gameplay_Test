@@ -24,3 +24,6 @@ A: You need to open **packages/reactphysics3d** and remove **CMakeFiles** and **
 
 Q: I cannot run the application. I get an error that I cannot find the **Windows SDK 10.0.17763.0**.  
 A: This project was developed for that version of the Windows SDK. You can install this sdk either through Visual Studio or through [official website](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
+
+Q: I don't want to build project by myself.  
+A: Okay, then you can download prebuilt project [here](https://drive.google.com/file/d/1MJcHSlDSvTq1qlDGwvE0Z4VXznJ-3k-4/).
