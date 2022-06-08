@@ -13,6 +13,9 @@
 You can learn more about the algorithm [here](https://github.com/Noxormy/CDPR_Gameplay_Test/blob/master/Flocking%20Simulation.pdf)
 
 # FAQ
+Q: I get an error "cmake is not recognized as internal or external command"  
+A: Just install cmake, you can download it [here](https://cmake.org/download/)
+
 Q: I get an error that there are no **CMake.txt** files.  
 A: It looks like the submodules are not loaded, you need to open the repository directory with git or a terminal and run ``git submodule update --init --recursive``.
 
